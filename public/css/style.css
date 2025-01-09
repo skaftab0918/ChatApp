@@ -3,9 +3,9 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-}
+  }
   
-body {
+  body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	background: linear-gradient(120deg, #e0f7fa, #f1f8e9);
@@ -13,22 +13,22 @@ body {
 	line-height: 1.6;
 	color: #333;
 	overflow-x: hidden;
-}
+  }
   
-a {
+  a {
 	text-decoration: none;
 	transition: color 0.3s;
-}
+  }
   
-a:hover {
+  a:hover {
 	color: #0288d1;
-}
+  }
   
-ul {
+  ul {
 	list-style: none;
-}
+  }
   
-.btn {
+  .btn {
 	cursor: pointer;
 	padding: 10px 20px;
 	background: linear-gradient(45deg, #0288d1, #26c6da);
@@ -38,15 +38,15 @@ ul {
 	font-size: 16px;
 	transition: background 0.3s, transform 0.2s;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+  }
   
-.btn:hover {
+  .btn:hover {
 	background: linear-gradient(45deg, #0277bd, #00acc1);
 	transform: scale(1.05);
-}
-
-/* Chat Page */
-.chat-container {
+  }
+  
+  /* Chat Page */
+  .chat-container {
 	max-width: 1200px;
 	background: white;
 	margin: 30px auto;
@@ -56,9 +56,9 @@ ul {
 	display: flex;
 	flex-direction: column;
 	height: 90vh;
-}
+  }
   
-.chat-header {
+  .chat-header {
 	background: linear-gradient(90deg, #0288d1, #26c6da);
 	color: #fff;
 	padding: 20px;
@@ -68,42 +68,42 @@ ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
+  }
   
-.chat-header .btn {
+  .chat-header .btn {
 	background: #d32f2f;
-}
+  }
   
-.chat-header .btn:hover {
+  .chat-header .btn:hover {
 	background: #b71c1c;
-}
+  }
   
-.chat-main {
+  .chat-main {
 	flex: 1;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	gap: 20px;
 	overflow: hidden;
-}
+  }
   
-.chat-sidebar {
+  .chat-sidebar {
 	background: #f0f4c3;
 	padding: 20px;
 	overflow-y: auto;
 	border-right: 2px solid #cddc39;
 	transition: background-color 0.3s;
-}
+  }
   
-.chat-sidebar:hover {
+  .chat-sidebar:hover {
 	background-color: #e6ee9c;
-}
+  }
   
-.chat-sidebar h3 {
+  .chat-sidebar h3 {
 	margin-bottom: 15px;
 	color: #333;
-}
+  }
   
-.chat-sidebar ul li {
+  .chat-sidebar ul li {
 	padding: 15px;
 	margin-bottom: 10px;
 	border-radius: 10px;
@@ -114,15 +114,14 @@ ul {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-}
-  
-.chat-sidebar ul li:hover {
+  }
+  .chat-sidebar ul li:hover {
 	background-color: #bbdefb;
 	transform: translateY(-3px);
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
+  }
   
-.chat-messages {
+  .chat-messages {
 	padding: 20px;
 	background: #ffffff;
 	overflow-y: auto;
@@ -130,40 +129,40 @@ ul {
 	flex-direction: column;
 	gap: 20px;
 	border-left: 2px solid #cddc39;
-}
+  }
   
-.chat-messages .message {
+  .chat-messages .message {
 	padding: 20px;
 	margin-bottom: 20px;
 	background-color: #f9fbe7;
 	border-radius: 15px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	animation: fadeIn 0.5s ease;
-}
+  }
   
-.chat-messages .message .meta {
+  .chat-messages .message .meta {
 	font-size: 14px;
 	color: #757575;
 	margin-bottom: 5px;
-}
+  }
   
-.chat-messages .message .text {
+  .chat-messages .message .text {
 	font-size: 16px;
 	color: #333;
-}
+  }
   
-.chat-form-container {
+  .chat-form-container {
 	background: linear-gradient(90deg, #0288d1, #26c6da);
 	padding: 20px;
 	box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-}
+  }
   
-.chat-form-container form {
+  .chat-form-container form {
 	display: flex;
 	gap: 10px;
-}
+  }
   
-.chat-form-container input {
+  .chat-form-container input {
 	flex: 1;
 	padding: 15px;
 	font-size: 16px;
@@ -171,13 +170,13 @@ ul {
 	border-radius: 25px;
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 	transition: box-shadow 0.3s;
-}
+  }
   
-.chat-form-container input:focus {
+  .chat-form-container input:focus {
 	box-shadow: 0 0 10px rgba(2, 136, 209, 0.8);
-}
+  }
   
-.chat-form-container button {
+  .chat-form-container button {
 	padding: 15px 30px;
 	background-color: #26c6da;
 	color: white;
@@ -186,15 +185,15 @@ ul {
 	font-size: 16px;
 	transition: background-color 0.3s, transform 0.2s;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+  }
   
-.chat-form-container button:hover {
+  .chat-form-container button:hover {
 	background-color: #00acc1;
 	transform: scale(1.05);
-}
-
-/* Join Page */
-.join-container {
+  }
+  
+  /* Join Page */
+  .join-container {
 	max-width: 500px;
 	margin: 80px auto;
 	background: white;
@@ -202,9 +201,9 @@ ul {
 	border-radius: 20px;
 	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 	animation: fadeIn 0.5s ease;
-}
+  }
   
-.join-header {
+  .join-header {
 	text-align: center;
 	padding: 20px;
 	background: linear-gradient(45deg, #0288d1, #26c6da);
@@ -213,50 +212,86 @@ ul {
 	font-weight: bold;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
-}
+  }
   
-.join-main {
+  .join-main {
 	padding: 20px;
-}
+  }
   
-.join-main label {
+  .join-main label {
 	display: block;
 	margin-bottom: 8px;
 	font-size: 16px;
 	color: #333;
-}
+  }
   
-.join-main input {
-	width: 100%;
-	padding: 10px;
-	font-size: 16px;
-	border: 2px solid #0288d1;
-	border-radius: 10px;
-	margin-bottom: 20px;
-}
-  
-.join-main button {
+  .join-main input,
+  .join-main select {
 	width: 100%;
 	padding: 15px;
-	font-size: 18px;
-	background: #0288d1;
+	margin-bottom: 20px;
+	border: 2px solid #ddd;
+	border-radius: 25px;
+	font-size: 16px;
+	transition: border-color 0.3s, transform 0.2s;
+  }
+  
+  .join-main input:focus,
+  .join-main select:focus {
+	border-color: #0288d1;
+	transform: scale(1.02);
+  }
+  
+  .join-main button {
+	width: 100%;
+	padding: 15px;
+	background: linear-gradient(45deg, #0288d1, #26c6da);
 	color: white;
 	border: none;
 	border-radius: 25px;
-	cursor: pointer;
-	transition: background-color 0.3s;
-}
+	font-size: 16px;
+	transition: background 0.3s, transform 0.2s;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
   
-.join-main button:hover {
-	background-color: #026fa7;
-}
+  .join-main button:hover {
+	background: linear-gradient(45deg, #0277bd, #00acc1);
+	transform: scale(1.05);
+  }
 
-@media screen and (max-width: 768px) {
+
+  .chat-sidebar ul li .room-name {
+	font-weight: bold;
+	font-size: 18px;
+	color: #0288d1;
+  }
+  
+  .chat-sidebar ul li .active-users {
+	font-size: 14px;
+	color: #757575;
+  }
+  
+  .chat-sidebar ul li .active-users span {
+	color: #388e3c;
+	font-weight: bold;
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  @media (max-width: 768px) {
 	.chat-main {
-		grid-template-columns: 1fr;
+	  grid-template-columns: 1fr;
 	}
   
 	.chat-sidebar {
-		display: none;
+	  display: none;
 	}
-}
+  }
+  
